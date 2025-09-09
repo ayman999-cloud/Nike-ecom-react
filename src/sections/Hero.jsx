@@ -4,6 +4,7 @@ import { arrowRight } from '../assets/icons';
 import { statistics, shoes } from '../constants';
 import { bigShoe1 } from '../assets/images';
 import { useState } from 'react';
+
 const Hero = () => {
   const [bigShoeImg, setBigShoeImg] = useState(bigShoe1);
 
